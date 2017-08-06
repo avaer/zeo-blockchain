@@ -18,6 +18,6 @@
   "homepage": "https://github.com/modulesio/zeo-blockchain#readme",
   "dependencies": {
     "crds": "0.0.20",
-    "vrid": "0.0.48"
+    "vrid": "0.0.49"
   }
 }
