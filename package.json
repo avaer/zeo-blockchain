@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/modulesio/zeo-blockchain#readme",
   "dependencies": {
-    "crds": "0.0.19",
-    "vrid": "0.0.44"
+    "crds": "0.0.20",
+    "vrid": "0.0.45"
   }
 }
