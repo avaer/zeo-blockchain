@@ -1,9 +1,13 @@
+const path = require('path');
+
 const crds = require('crds');
 const vrid = require('vrid');
 
-const zeoBlockchain = () => Promise.all([
-  crds().listen(),
-  vrid().listen(),
+const zeoBlockchain = ({
+  dataDirectory = path.join(__dirname, 'data'),
+} = {}) => Promise.all([
+  crds({dataDirectory}).listen(),
+  vrid({dataDirectory}).listen(),
 ])
   .then(([
     crdsResult,
