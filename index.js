@@ -32,7 +32,9 @@ const _requestCrds = opts => {
 
 const zeoBlockchain = (opts = {}) => _requestVrid(opts)
   .then(v => {
-    console.log('Admin page: ' + v.url);
+    if (!opts.app) {
+      console.log('Admin page: ' + v.url);
+    }
 
     return _requestCrds(opts)
       .then(c => ([
