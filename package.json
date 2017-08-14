@@ -1,6 +1,6 @@
 {
   "name": "zeo-blockchain",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Zeo blockchain full node",
   "main": "index.js",
   "scripts": {
